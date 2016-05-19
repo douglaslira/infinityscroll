@@ -12,4 +12,5 @@ This directive was developed from a demand of my friend Amandio Magalhães. It i
 
 # How to view this sample
 
-1 - Run this command "npm install && npm start"
+* 1 - Run this command "npm install && npm start"
+* 2 - Open http://localhost:8000
