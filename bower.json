@@ -1,0 +1,25 @@
+{
+  "name": "infinityscroll",
+  "homepage": "https://github.com/douglaslira/infinityscroll",
+  "authors": [
+    "Douglas Lira <douglas.lira.web@gmail.com>"
+  ],
+  "description": "Create simple component from create infinity scroll",
+  "main": "",
+  "keywords": [
+    "Douglas",
+    "Lira",
+    "Angular",
+    "Infinity",
+    "Scroll"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
