@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>NyX Infinity Scroll</title>
+
+    <!-- CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- JS -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="src/infinityscroll.js"></script>
+    <!-- Sample -->
+    <script src="sample/app.js"></script>
+    <script src="sample/controller/main.controller.js"></script>
+
+</head>
+<body>
+    <div class="content">
+        <br>
+        <div class="col-sm-6" ng-controller="Main">
+            <br>
+            <br>
+            <span>PLEASE SCROLL FROM BOTTOM</span>
+            <br>
+            <br>
+            <br>
+            <br>
+            <fieldset nyx-scroll load="loadData();">
+                <legend>Count ({{list.count ? list.count : 0}})</legend>
+                <span ng-if="!list.items">Waiting...</span>
+                <ul>
+                    <li ng-repeat="item in list.items">{{item.id}}</li>
+                </ul>
+            </fieldset>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</body>
+</html>

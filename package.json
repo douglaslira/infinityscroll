@@ -1,0 +1,24 @@
+{
+  "name": "infinityscroll",
+  "version": "1.0.0",
+  "description": "Create simple component from create infinity scroll",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douglaslira/infinityscroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglaslira/infinityscroll/issues"
+  },
+  "homepage": "https://github.com/douglaslira/infinityscroll",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "http-server": "^0.6.1"
+  }
+}
