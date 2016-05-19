@@ -1,7 +1,7 @@
 NyxScroll - By Douglas Lira
 =================
 
-# This directive was developed from a demand of my friend Amandio Magalhães. It is a simple component that loads data when the screen scrolling reaches the bottom of the window
+This directive was developed from a demand of my friend Amandio Magalhães. It is a simple component that loads data when the screen scrolling reaches the bottom of the window
 
 # How to use
 
